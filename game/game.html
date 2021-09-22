@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>game</title>
+</head>
+<body >
+<table  align="center" id="ki" >
+    <tr>
+        <td><h3>COMPUTER</h3></td>
+        <td><h3>PLAYER</h3></td>
+    </tr>
+    <tr>
+        <td ><img align="center" id="com" src="../images/paper.png"></td>
+        <td ><img align="center" id="ply" src="../images/paper.png"></td>
+    </tr>
+</table>
+<table align="center">
+    <tr>
+        <td><button onclick="rock()"><img src="../images/rock.png"></button> </td>
+        <td><button onclick="paper()"><img src="../images/paper.png"></button> </td>
+        <td><button onclick="scissor()"><img src="../images/scissor.png"></button> </td>
+    </tr>
+
+</table>
+<script src="../game/game_file.js"></script>
+</body>
+</html>
